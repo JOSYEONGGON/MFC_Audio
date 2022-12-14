@@ -94,6 +94,17 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="..\Debug\snd\accept.wav" />
+    <None Include="..\Debug\snd\baecha.wav" />
+    <None Include="..\Debug\snd\cancel.wav" />
+    <None Include="..\Debug\snd\change.wav" />
+    <None Include="..\Debug\snd\chimes.wav" />
+    <None Include="..\Debug\snd\ding.wav" />
+    <None Include="..\Debug\snd\done.wav" />
+    <None Include="..\Debug\snd\done2.wav" />
+    <None Include="..\Debug\snd\done3.wav" />
+    <None Include="..\Debug\snd\Notification.wav" />
+    <None Include="..\Debug\snd\notify.wav" />
     <None Include="ReadMe.txt" />
     <None Include="res\MFC_Audio.ico" />
     <None Include="res\MFC_Audio.rc2" />
@@ -119,4 +130,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MFC_Audio.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
